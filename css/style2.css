@@ -366,7 +366,7 @@ p {
 
 	border: 1px solid white;
 	background-color: rgba(255, 255, 255, 0.15);
-	backdrop-filter: blur(15px);
+	backdrop-filter: blur(5px);
 	box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.35);
 
 	margin: auto;
@@ -733,7 +733,7 @@ td.rightcol {
 		height: 205px;
 	}
 	.clubs-name {
-		font-size: 25px;
+		font-size: 22px;
 	}
 	.history-image__drujina {
 		max-height: 125px;
@@ -837,7 +837,7 @@ td.rightcol {
 @media (min-width: 1000px) {
 	.content-vov {
 		width: 800px;
-		max-height: 700px;
+		max-height: 650px;
 	}
 	.menu-content__link {
 		font-size: 26px;
@@ -851,7 +851,7 @@ td.rightcol {
 		max-width: 770px;
 	}
 	.history-text {
-		font-size: 15px;
+		font-size: 14px;
 		max-width: 425px;
 	}
 	.history-image__vov {
@@ -934,8 +934,8 @@ td.rightcol {
 		width: 400px;
 	}
 	.vov-image__portrait {
-		height: 350px;
-		width: 250px;
+		height: 300px;
+		width: 210px;
 	}
 	.clubs-card {
 		width: 377px;
