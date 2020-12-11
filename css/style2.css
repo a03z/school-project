@@ -205,7 +205,9 @@ p {
 	flex-grow: 1;
 	margin: 28px;
 	border-radius: 20px;
-	background: #aed2fb;
+	border: 1px solid white;
+	background-color: rgba(255, 255, 255, 0.15);
+	backdrop-filter: blur(15px);
 	box-shadow: 0 16px 32px 0 rgba(0, 40, 120, 0.35);
 	position: relative;
 	padding: 20px;
@@ -223,7 +225,9 @@ p {
 	flex-wrap: wrap;
 	margin: 28px;
 	border-radius: 20px;
-	background: #aed2fb;
+	border: 1px solid white;
+	background-color: rgba(255, 255, 255, 0.15);
+	backdrop-filter: blur(15px);
 	box-shadow: 0 16px 32px 0 rgba(0, 40, 120, 0.35);
 	position: relative;
 	padding: 20px;
@@ -238,7 +242,9 @@ p {
 	flex-grow: 1;
 	margin: 20px;
 	border-radius: 20px;
-	background: #aed2fb;
+	border: 1px solid white;
+	background-color: rgba(255, 255, 255, 0.15);
+	backdrop-filter: blur(15px);
 	box-shadow: 0 16px 32px 0 rgba(0, 40, 120, 0.35);
 	flex-basis: 350px;
 	position: relative;
@@ -409,7 +415,9 @@ p {
 	flex-grow: 1;
 	margin: 0 15px 30px 15px;
 	border-radius: 20px;
-	background: #aed2fb;
+	border: 1px solid white;
+	background-color: rgba(255, 255, 255, 0.15);
+	backdrop-filter: blur(15px);
 	box-shadow: 0 16px 32px 0 rgba(0, 40, 120, 0.35);
 	flex-basis: 350px;
 	max-width: 800px;
@@ -921,7 +929,7 @@ td.rightcol {
 		font-size: 34px;
 	}
 	.graduator-content {
-		max-width: 1135px;
+		max-width: 1155px;
 	}
 	#achivki {
 		font-size: 17px;
