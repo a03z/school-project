@@ -663,7 +663,9 @@ td.rightcol {
 #more-teacherinfo12,
 #more-teacherinfo13,
 #more-teacherinfo14,
-#more-teacherinfo15 {
+#more-teacherinfo15,
+#more-teacherinfo16,
+#more-teacherinfo17 {
 	border-radius: 20px;
 	justify-content: center;
 	text-align: left;
@@ -912,9 +914,7 @@ td.rightcol {
 	.graduator-content {
 		max-width: 780px;
 	}
-	.teacher-content {
-		max-width: 900px;
-	}
+
 	.history-text {
 		font-size: 14px;
 		max-width: 425px;
@@ -955,10 +955,13 @@ td.rightcol {
 		justify-content: space-between;
 		flex-wrap: wrap;
 	}
+	.teacher-content {
+		max-width: 900px;
+	}
 	.teacher-list {
 		align-items: center;
 		display: flex;
-		justify-content: space-between;
+		justify-content: center;
 		flex-wrap: wrap;
 	}
 	.clubs-list {
