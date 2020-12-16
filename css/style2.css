@@ -18,6 +18,7 @@ body {
 	position: relative;
 }
 body {
+	/* font-family: "Comfortaa", cursive; */
 	font-size: 18px;
 	font-weight: 400;
 	color: #000000;
@@ -72,7 +73,7 @@ h5 {
 	background-image: linear-gradient(67deg, #30cfd0 0%, #330867 100%);
 	background-position: 100% 0;
 	background-size: 200% 200%;
-	font-family: "Comfortaa", cursive;
+	/* font-family: "Comfortaa", cursive; */
 	font-size: 24px !important;
 	font-weight: 300;
 	color: white;
@@ -174,7 +175,7 @@ h5 {
 /************ Название слайда ************/
 
 .clubs-name {
-	font-family: "Comfortaa", cursive;
+	/* font-family: "Comfortaa", cursive; */
 	padding: 20px;
 	text-align: center;
 	font-size: 20px;
@@ -404,7 +405,7 @@ h5 {
 	text-align: center;
 	font-size: 20px;
 	font-weight: bold;
-	font-family: "Comfortaa", cursive;
+	/* font-family: "Comfortaa", cursive; */
 }
 
 .hospital-card__text {
@@ -413,8 +414,7 @@ h5 {
 	text-align: left;
 	align-items: center;
 	font-size: 15px;
-	font-family: "Comfortaa", cursive;
-	font-family: "Inter", sans-serif;
+	/* font-family: "Comfortaa", cursive; */
 	margin: 23px 16px;
 }
 
@@ -608,7 +608,7 @@ td.rightcol {
 }
 
 .clubs-item__title {
-	font-family: "Comfortaa", cursive;
+	/* font-family: "Comfortaa", cursive; */
 	margin: 19px auto;
 	font-style: normal;
 	font-weight: bold;
