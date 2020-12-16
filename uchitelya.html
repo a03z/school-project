@@ -1,73 +1,935 @@
 <!DOCTYPE html>
 <html lang="ru">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Сайт-музей МОУ СОШ №8 Вологда</title>
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="apple-touch-icon" sizes="57x57"
-        href="http://school8-vologda.ru/wp-content/themes/school8/images/favicon/apple-icon-57x57.png">
-    <link rel="apple-touch-icon" sizes="60x60"
-        href="http://school8-vologda.ru/wp-content/themes/school8/images/favicon/apple-icon-60x60.png">
-    <link rel="apple-touch-icon" sizes="72x72"
-        href="http://school8-vologda.ru/wp-content/themes/school8/images/favicon/apple-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="76x76"
-        href="http://school8-vologda.ru/wp-content/themes/school8/images/favicon/apple-icon-76x76.png">
-    <link rel="apple-touch-icon" sizes="114x114"
-        href="http://school8-vologda.ru/wp-content/themes/school8/images/favicon/apple-icon-114x114.png">
-    <link rel="apple-touch-icon" sizes="120x120"
-        href="http://school8-vologda.ru/wp-content/themes/school8/images/favicon/apple-icon-120x120.png">
-    <link rel="apple-touch-icon" sizes="144x144"
-        href="http://school8-vologda.ru/wp-content/themes/school8/images/favicon/apple-icon-144x144.png">
-    <link rel="apple-touch-icon" sizes="152x152"
-        href="http://school8-vologda.ru/wp-content/themes/school8/images/favicon/apple-icon-152x152.png">
-    <link rel="apple-touch-icon" sizes="180x180"
-        href="http://school8-vologda.ru/wp-content/themes/school8/images/favicon/apple-icon-180x180.png">
-    <link rel="icon" type="image/png" sizes="192x192"
-        href="http://school8-vologda.ru/wp-content/themes/school8/images/favicon/android-icon-192x192.png">
-    <link rel="icon" type="image/png" sizes="32x32"
-        href="http://school8-vologda.ru/wp-content/themes/school8/images/favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="96x96"
-        href="http://school8-vologda.ru/wp-content/themes/school8/images/favicon/favicon-96x96.png">
-    <link rel="icon" type="image/png" sizes="16x16"
-        href="http://school8-vologda.ru/wp-content/themes/school8/images/favicon/favicon-16x16.png">
-    <link rel="manifest" href="http://school8-vologda.ru/wp-content/themes/school8/images/favicon/manifest.json">
-</head>
+		<title>Сайт-музей МОУ СОШ №8 Вологда</title>
 
-<body>
-    <div class="wrapper">
-        <div class="content">
-            <header class="header">
-                <div class="header-btn">Меню</div>
-            </header>
-        </div>
+		<link rel="stylesheet" href="./css/style2.css" />
+		<link rel="stylesheet" href="./css/jquery.fancybox.css" />
 
-        <footer class="footer">
-            <span class="footer-copyright">
-                МОУ СОШ №8
-            </span>
-        </footer>
+		<link
+			rel="apple-touch-icon"
+			sizes="57x57"
+			href="http://school8-vologda.ru/wp-content/themes/school8/images/favicon/apple-icon-57x57.png"
+		/>
+		<link
+			rel="apple-touch-icon"
+			sizes="60x60"
+			href="http://school8-vologda.ru/wp-content/themes/school8/images/favicon/apple-icon-60x60.png"
+		/>
+		<link
+			rel="apple-touch-icon"
+			sizes="72x72"
+			href="http://school8-vologda.ru/wp-content/themes/school8/images/favicon/apple-icon-72x72.png"
+		/>
+		<link
+			rel="apple-touch-icon"
+			sizes="76x76"
+			href="http://school8-vologda.ru/wp-content/themes/school8/images/favicon/apple-icon-76x76.png"
+		/>
+		<link
+			rel="apple-touch-icon"
+			sizes="114x114"
+			href="http://school8-vologda.ru/wp-content/themes/school8/images/favicon/apple-icon-114x114.png"
+		/>
+		<link
+			rel="apple-touch-icon"
+			sizes="120x120"
+			href="http://school8-vologda.ru/wp-content/themes/school8/images/favicon/apple-icon-120x120.png"
+		/>
+		<link
+			rel="apple-touch-icon"
+			sizes="144x144"
+			href="http://school8-vologda.ru/wp-content/themes/school8/images/favicon/apple-icon-144x144.png"
+		/>
+		<link
+			rel="apple-touch-icon"
+			sizes="152x152"
+			href="http://school8-vologda.ru/wp-content/themes/school8/images/favicon/apple-icon-152x152.png"
+		/>
+		<link
+			rel="apple-touch-icon"
+			sizes="180x180"
+			href="http://school8-vologda.ru/wp-content/themes/school8/images/favicon/apple-icon-180x180.png"
+		/>
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="192x192"
+			href="http://school8-vologda.ru/wp-content/themes/school8/images/favicon/android-icon-192x192.png"
+		/>
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="32x32"
+			href="http://school8-vologda.ru/wp-content/themes/school8/images/favicon/favicon-32x32.png"
+		/>
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="96x96"
+			href="http://school8-vologda.ru/wp-content/themes/school8/images/favicon/favicon-96x96.png"
+		/>
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="16x16"
+			href="http://school8-vologda.ru/wp-content/themes/school8/images/favicon/favicon-16x16.png"
+		/>
+		<link
+			rel="manifest"
+			href="http://school8-vologda.ru/wp-content/themes/school8/images/favicon/manifest.json"
+		/>
+	</head>
 
-        <div class="menu" id="menu">
-            <div class="menu-content">
-                <a href="./obrazovanie.html" class="menu-content__link">Образование школы</a>
-                <a href="./shkola v VOV.html" class="menu-content__link">Школа в годы Великой Отечественной войны</a>
-                <a href="./istoria hospitala.html" class="menu-content__link">История эвакогоспиталя</a>
-                <a href="./directora.html" class="menu-content__link">Директора школы</a>
-                <a href="./uchitelya.html" class="menu-content__link active">Учителя школы</a>
-                <a href="./vypuskniki.html" class="menu-content__link">Ими гордится школа: выпускники</a>
-                <a href="./istoria shkoly ussr.html" class="menu-content__link">История школы: Советский период</a>
-                <a href="./pionerskaya drujina GSS.html" class="menu-content__link">История пионерской дружины имени
-                    Елизаветы Чайкиной</a>
-                <a href="./klubnoe dvijenie.html" class="menu-content__link">Клубное движение</a>
-            </div>
-            <img src="./img/menu/close.svg" alt="Закрыть" class="menu-close">
-        </div>
-        <button id="top">Наверх</button>
-    </div>
-    <script src="./js/main.js"></script>
-</body>
+	<body>
+		<div class="wrapper">
+			<div class="container">
+				<header class="header">
+					<div class="header-btn">Меню</div>
+				</header>
+				<section class="teachers section">
+					<h1 class="clubs-name">Известные выпускники школы.</h1>
+					<div class="teacher-content">
+						<div class="teacher-list">
+							<a
+								data-fancybox
+								data-src="#more-teacherinfo"
+								href="javascript:;"
+								data-touch="false"
+								class="textlink hero-buttons__item-link btn-transparent more-info__btn"
+							>
+								<div class="teacher-item">
+									<h3>Фалина Анна Александровна</h3>
+									<h5>Учитель русского языка и литературы</h5>
+									<img
+										src="./img/teachers/popova.jpg"
+										alt="Avatar"
+										class="teacher-image"
+									/>
+								</div>
+							</a>
+							<a
+								data-fancybox
+								data-src="#more-teacherinfo2"
+								href="javascript:;"
+								data-touch="false"
+								class="textlink hero-buttons__item-link btn-transparent more-info__btn"
+							>
+								<div class="teacher-item" style="text-decoration: none">
+									<h3>Паланова Светлана Алфеевна</h3>
+									<h5>Учитель начальных классов</h5>
 
+									<img
+										src="./img/teachers/palanova.jpg"
+										alt="Avatar"
+										class="teacher-image"
+									/>
+								</div>
+							</a>
+							<a
+								data-fancybox
+								data-src="#more-teacherinfo3"
+								href="javascript:;"
+								data-touch="false"
+								class="textlink hero-buttons__item-link btn-transparent more-info__btn"
+							>
+								<div class="teacher-item">
+									<h3>Карташова Евгения Владимировна</h3>
+									<h5>Учитель начальных классов</h5>
+									<img
+										src="./img/teachers/kartashova.jpg"
+										alt="Avatar"
+										class="teacher-image"
+									/>
+								</div>
+							</a>
+							<a
+								data-fancybox
+								data-src="#more-teacherinfo4"
+								href="javascript:;"
+								data-touch="false"
+								class="textlink hero-buttons__item-link btn-transparent more-info__btn"
+							>
+								<div class="teacher-item">
+									<h3>Малышева Ольга Васильевна</h3>
+									<h5>Учитель математики</h5>
+									<img
+										src="./img/teachers/malisheva.jpg"
+										alt="Avatar"
+										class="teacher-image"
+									/>
+								</div>
+							</a>
+							<a
+								data-fancybox
+								data-src="#more-teacherinfo5"
+								href="javascript:;"
+								data-touch="false"
+								class="textlink hero-buttons__item-link btn-transparent more-info__btn"
+							>
+								<div class="teacher-item">
+									<h3>Отопкова Елена Викторовна</h3>
+									<h5>Учитель начальных классов</h5>
+									<img
+										src="./img/teachers/otopkova.jpg"
+										alt="Avatar"
+										class="teacher-image"
+									/>
+								</div>
+							</a>
+							<a
+								data-fancybox
+								data-src="#more-teacherinfo6"
+								href="javascript:;"
+								data-touch="false"
+								class="textlink hero-buttons__item-link btn-transparent more-info__btn"
+							>
+								<div class="teacher-item">
+									<h3>Хабина Елена Николаевна</h3>
+									<h5>Учитель начальных классов</h5>
+									<img
+										src="./img/teachers/habina.jpg"
+										alt="Avatar"
+										class="teacher-image"
+									/>
+								</div>
+							</a>
+							<a
+								data-fancybox
+								data-src="#more-teacherinfo7"
+								href="javascript:;"
+								data-touch="false"
+								class="textlink hero-buttons__item-link btn-transparent more-info__btn"
+							>
+								<div class="teacher-item">
+									<h3>Ефименкова Евгения Валериевна</h3>
+									<h5>Учитель английского языка</h5>
+									<img
+										src="./img/teachers/efimenkova.jpg"
+										alt="Avatar"
+										class="teacher-image"
+									/>
+								</div>
+							</a>
+							<a
+								data-fancybox
+								data-src="#more-teacherinfo8"
+								href="javascript:;"
+								data-touch="false"
+								class="textlink hero-buttons__item-link btn-transparent more-info__btn"
+							>
+								<div class="teacher-item">
+									<h3>Шумская Галина Витальевна</h3>
+									<h5>Учитель математики</h5>
+									<img
+										src="./img/teachers/shumskaya.jpg"
+										alt="Avatar"
+										class="teacher-image"
+									/>
+								</div>
+							</a>
+							<a
+								data-fancybox
+								data-src="#more-teacherinfo9"
+								href="javascript:;"
+								data-touch="false"
+								class="textlink hero-buttons__item-link btn-transparent more-info__btn"
+							>
+								<div class="teacher-item">
+									<h3>Смирнова Инна Валерьевна</h3>
+									<h5>Учитель начальных классов</h5>
+									<img
+										src="./img/teachers/smirnova.jpg"
+										alt="Avatar"
+										class="teacher-image"
+									/>
+								</div>
+							</a>
+							<a
+								data-fancybox
+								data-src="#more-teacherinfo10"
+								href="javascript:;"
+								data-touch="false"
+								class="textlink hero-buttons__item-link btn-transparent more-info__btn"
+							>
+								<div class="teacher-item">
+									<h3>Курышева Людмила Петровна</h3>
+									<h5>Учитель русского языка и литературы</h5>
+									<img
+										src="./img/teachers/kurysheva.jpg"
+										alt="Avatar"
+										class="teacher-image"
+									/>
+								</div>
+							</a>
+							<a
+								data-fancybox
+								data-src="#more-teacherinfo11"
+								href="javascript:;"
+								data-touch="false"
+								class="textlink hero-buttons__item-link btn-transparent more-info__btn"
+							>
+								<div class="teacher-item">
+									<h3>Смирнова Юлия Николаевна</h3>
+									<h5>Учитель начальных классов</h5>
+									<img
+										src="./img/teachers/smirnova_u.jpg"
+										alt="Avatar"
+										class="teacher-image"
+									/>
+								</div>
+							</a>
+							<a
+								data-fancybox
+								data-src="#more-teacherinfo12"
+								href="javascript:;"
+								data-touch="false"
+								class="textlink hero-buttons__item-link btn-transparent more-info__btn"
+							>
+								<div class="teacher-item">
+									<h3>Чумаков Владимир Анатольевич</h3>
+									<h5>Учитель физики</h5>
+									<img
+										src="./img/teachers/chumakov.jpg"
+										alt="Avatar"
+										class="teacher-image"
+									/>
+								</div>
+							</a>
+							<a
+								data-fancybox
+								data-src="#more-teacherinfo13"
+								href="javascript:;"
+								data-touch="false"
+								class="textlink hero-buttons__item-link btn-transparent more-info__btn"
+							>
+								<div class="teacher-item">
+									<h3>Бараева Ирина Анатольевна</h3>
+									<h5>Учитель английского языка</h5>
+									<img
+										src="./img/teachers/baraeva.jpg"
+										alt="Avatar"
+										class="teacher-image"
+									/>
+								</div>
+							</a>
+							<a
+								data-fancybox
+								data-src="#more-teacherinfo14"
+								href="javascript:;"
+								data-touch="false"
+								class="textlink hero-buttons__item-link btn-transparent more-info__btn"
+							>
+								<div class="teacher-item">
+									<h3>Хабарова Екатерина Александровна</h3>
+									<h5>Учитель математики</h5>
+									<img
+										src="./img/teachers/zaitzeva.jpg"
+										alt="Avatar"
+										class="teacher-image"
+									/>
+								</div>
+							</a>
+							<a
+								data-fancybox
+								data-src="#more-teacherinfo15"
+								href="javascript:;"
+								data-touch="false"
+								class="textlink hero-buttons__item-link btn-transparent more-info__btn"
+							>
+								<div class="teacher-item">
+									<h3></h3>
+									<h5></h5>
+									<img
+										src="./img/teachers/smirnova_u.jpg"
+										alt="Avatar"
+										class="teacher-image"
+									/>
+								</div>
+							</a>
+							<a
+								data-fancybox
+								data-src="#more-teacherinfo16"
+								href="javascript:;"
+								data-touch="false"
+								class="textlink hero-buttons__item-link btn-transparent more-info__btn"
+							>
+								<div class="teacher-item">
+									<h3></h3>
+									<h5></h5>
+									<img
+										src="./img/teachers/smirnova_u.jpg"
+										alt="Avatar"
+										class="teacher-image"
+									/>
+								</div>
+							</a>
+						</div>
+					</div>
+				</section>
+			</div>
+
+			<footer class="footer">
+				<span class="footer-copyright"> МОУ СОШ №8 </span>
+			</footer>
+
+			<div class="menu" id="menu">
+				<div class="menu-content">
+					<a href="./obrazovanie.html" class="menu-content__link"
+						>Образование школы</a
+					>
+					<a href="./shkola v VOV.html" class="menu-content__link"
+						>Школа в годы Великой Отечественной войны</a
+					>
+					<a href="./istoria hospitala.html" class="menu-content__link"
+						>История эвакогоспиталя</a
+					>
+					<a href="./directora.html" class="menu-content__link"
+						>Директора школы</a
+					>
+					<a href="./uchitelya.html" class="menu-content__link active"
+						>Учителя школы</a
+					>
+					<a href="./vypuskniki.html" class="menu-content__link"
+						>Ими гордится школа: выпускники</a
+					>
+					<a href="./istoria shkoly ussr.html" class="menu-content__link"
+						>История школы: Советский период</a
+					>
+					<a href="./pionerskaya drujina GSS.html" class="menu-content__link"
+						>История пионерской дружины имени Елизаветы Чайкиной</a
+					>
+					<a href="./klubnoe dvijenie.html" class="menu-content__link"
+						>Клубное движение</a
+					>
+				</div>
+				<img src="./img/menu/close.svg" alt="Закрыть" class="menu-close" />
+			</div>
+		</div>
+		<div id="more-teacherinfo" style="text-decoration: none">
+			<h3 style="text-align: center">Фалина Анна Александровна</h3>
+			<p style="font-size: 15px">• Победитель ПНПО – 2008, 2012</p>
+			<p style="font-size: 15px">
+				• Почетная грамота Министерства образования Российской Федерации Лауреат
+				премии имени П.А.Колесникова
+			</p>
+			<p style="font-size: 15px">
+				• Победитель городского (2006 год) и лауреат областного (2007 год)
+				смотра-конкурса «Учитель года».
+			</p>
+
+			<p style="font-size: 15px">• Финалист областного конкурса</p>
+			<p style="font-size: 15px">• «Любимый учитель».</p>
+			<p style="font-size: 15px">
+				• Победитель заочного областного конкурса методических разработок
+				«Сотрудничество педагогов и родителей в интересах детей» (2007 год).
+			</p>
+			<p style="font-size: 15px">
+				• Имеет публикации по методике преподавания русского языка и литературы
+				«Речевые ошибки в письменных работах учащихся», «Способы организации
+				художественного пространства в «Хрустальном мире» В.Пелевина», «Критерии
+				и нормы оценок».
+			</p>
+			<p style="font-size: 15px">
+				• Постоянный руководитель практики студентов филологического факультета
+				ВГПУ.
+			</p>
+			<p style="font-size: 15px">
+				• Участник городских и областных семинаров учителей русского языка и
+				литературы.
+			</p>
+			<p style="font-size: 15px">
+				• Готовится к защите кандидатской диссертации по драматургии Н.Гумилева.
+			</p>
+			<p style="font-size: 15px">
+				• Учащиеся занимаются исследовательской деятельностью; являются
+				победителями и призерами городских и областных олимпиад по русскому
+				языку и литературе, научно-практической конференции «Мир через
+				культуру», городского конкурса по журналистике «Серебряное перо».
+			</p>
+		</div>
+		<div id="more-teacherinfo2" style="text-decoration: none">
+			<h3 style="text-align: center">Паланова Светлана Алфеевна</h3>
+			<p style="font-size: 15px">• Победитель ПНПО – 2008</p>
+			<p style="font-size: 15px">
+				• Почетное звание «Заслуженный учитель Российской Федерации»
+			</p>
+			<p style="font-size: 15px">
+				• Нагрудный знак «Отличник народного просвещения»
+			</p>
+			<p style="font-size: 15px">
+				• Основные направления деятельности – использование упражнений
+				развивающего характера на уроках математики в начальной школе;
+				использование тестового контроля при организации мониторинга ЗУН младших
+				школьников; использование информационных технологий при организации
+				учебно-воспитательного процесса в начальной школе.
+			</p>
+			<p style="font-size: 15px">
+				• Участник семинаров «Начальная школа в условиях модернизации общего
+				образования», «Управление качеством образования в начальной школе» 2006
+				год; «Модернизация начального образования», «Традиционная начальная
+				школа в условиях модернизации образования», «Раннее изучение информатики
+				в начальных классах» 2007 год; «Современные подходы к изучению
+				информатики в начальной школе» 2008 год.
+			</p>
+			<p style="font-size: 15px">
+				• Имеет печатные работы по итогам выступлений на областных
+				научно-практических конференциях «Формирование единого информационного
+				пространства в образовательной системе Вологодской области» 2008 год,
+				«Информатизация образования: проблемы, опыт, перспективы» 2009 год.
+			</p>
+			<p style="font-size: 15px">
+				• Учащиеся являются победителями и призерами городского конкурса
+				«Детский компьютерный проект – 2009».
+			</p>
+			<p style="font-size: 15px">
+				• Руководитель педагогической практикой студентов ГОУ СПО «Вологодский
+				педагогический колледж». Член жюри городского конкурса «Учитель года» с
+				2007 года.
+			</p>
+			<p style="font-size: 15px">
+				• Член городской творческой группы учителей начальных классов
+				«Мониторинг учебных достижений младших школьников».
+			</p>
+		</div>
+		<div id="more-teacherinfo3" style="text-decoration: none">
+			<h3 style="text-align: center">Карташова Евгения Владимировна</h3>
+			<p style="font-size: 15px">• Победитель ПНПО – 2009</p>
+			<p style="font-size: 15px">
+				• Нагрудный знак «Почетный работник общего образования»
+			</p>
+			<p style="font-size: 15px">• Лауреат премии имени П.А. Колесникова</p>
+			<p style="font-size: 15px">
+				• Участник Всероссийского конкурса педагогов «Восхождение к творчеству».
+				Участник Всероссийского фестиваля «Открытый урок» 2006 – 2007
+			</p>
+			<p style="font-size: 15px">
+				• Сущность опыта в разработке системы творческих заданий с
+				использованием элементов теории решения изобретательских задач,
+				ориентированную на повышение уровня развития познавательной активности
+				младших школьников, выявлении комплекса педагогических условий,
+				способствующих ее эффективному функционированию в учебном процессе. В
+				результате наблюдается положительная динамика по таким показателям как:
+				успеваемость по основным предметам; рост количества участников олимпиад;
+				рост числа учащихся, выполняющих творческие задания высокого уровня
+				новизны; активное использование справочных материалов; позитивное
+				отношение к происходящим изменениям в окружающем мире, ориентация на его
+				преобразование, направленное на созидание, устойчивый интерес к
+				содержанию усвоенных знаний, интерес к самому процессу учебной
+				деятельности, адекватная оценка оригинальности собственных решений и
+				решений своих товарищей.
+			</p>
+			<p style="font-size: 15px">
+				• Участник семинаров «Начальная школа в условиях модернизации общего
+				образования», «Управление качеством образования в начальной школе» 2006
+				год; «Модернизация начального образования», «Традиционная начальная
+				школа в условиях модернизации образования», «Раннее изучение информатики
+				в начальных классах» 2007 год; «Методики и технологии преподавания
+				школьного курса информатики» (круглый стол, мастер-класс: «Урок
+				информатики в начальной школе по программе Семенова» 2008 год).
+			</p>
+			<p style="font-size: 15px">
+				• Руководитель педагогической практикой студентов ГОУ СПО «Вологодский
+				педагогический колледж». Член жюри областного студенческого конкурса
+				«Путь к профессии учитель» 2006 год.
+			</p>
+			<p style="font-size: 15px">
+				• Имеет публикацию в сборнике по материалам межрегиональной
+				научно-практической конференции 2008 года «Управление качеством
+				непрерывного педагогического образования в системе школа – колледж –
+				ВУЗ».
+			</p>
+		</div>
+		<div id="more-teacherinfo4" style="text-decoration: none">
+			<h3>Малышева Ольга Васильевна</h3>
+			<p style="font-size: 15px">• Победитель ПНПО – 2009</p>
+			<p style="font-size: 15px">• Значок «Отличник народного просвещения»</p>
+			<p style="font-size: 15px">
+				• Лауреат всероссийского конкурса учителей математики и физики Фонда
+				Дмитрия Зимина «Династия» – 2009
+			</p>
+			<p style="font-size: 15px">
+				• Награждена Почётной Грамотой Государственного Комитета СССР по
+				Народному образованию и Почётной Грамотой Главы города Вологды.
+				Победитель Всероссийского конкурса учителей физики и математики
+				«Династия» 2009 года (грант в номинации «Наставник будущих учёных»).
+			</p>
+			<p style="font-size: 15px">
+				• Обеспечивает высокий уровень подготовки учащихся по своему предмету;
+				готовит учащихся к участию в городских и областных олимпиадах.
+			</p>
+			<p style="font-size: 15px">
+				• Результаты ЕГЭ по математике в 2007 – 2008 учебном году: качество
+				знаний – 92,8%; средний балл – 62,6; высший балл по области – 94 (Серков
+				Антон, 11А класс)
+			</p>
+			<p style="font-size: 15px">
+				• Результаты выполнения международного теста TIMSS – 2008 по математике
+				(углублённый курс): средний балл по России – 57; средний балл 11А класса
+				– 71; Шохин Андрей 100 баллов
+			</p>
+		</div>
+		<div id="more-teacherinfo5" style="text-decoration: none">
+			<h3>Отопкова Елена Викторовна</h3>
+			<p style="font-size: 15px">• Победитель ПНПО – 2009, 2011</p>
+			<p style="font-size: 15px">
+				• Нагрудный знак «Почетный работник общего образования Российской
+				Федерации»
+			</p>
+			<p style="font-size: 15px">
+				• Участник городского смотра-конкурса «Логопед года 2006». Победитель в
+				областном конкурсе «Письмо Деду Морозу» (урок развития речи) (2009, 2010
+				г.).
+			</p>
+			<p style="font-size: 15px">
+				• Победитель областного конкурса методических разработок уроков с
+				компьютерной поддержкой (2008, 2010 г.). Участник конкурса на премию им.
+				П.А. Колесникова (2008 г.).
+			</p>
+			<p style="font-size: 15px">
+				• Участник образовательного форума «Педагогическая инноватика» ВИРО, на
+				секции «Личностно-ориентированное обучение».
+			</p>
+			<p style="font-size: 15px">
+				• Участник круглого стола на секции «Инновационные подходы к обучению и
+				воспитанию детей с ограниченными возможностями здоровья».
+			</p>
+			<p style="font-size: 15px">
+				• Участник проведения практических открытых уроков на семинарах ЦПК и
+				ВИРО по проблемам «Модернизация начального образования», «Традиционная
+				начальная школа в условиях модернизации образования» для участников
+				курсов повышения профессионального мастерства педагогов (2006-2007 г.).
+			</p>
+			<p style="font-size: 15px">
+				• Участник проведения показательных уроков и руководитель педагогической
+				практикой студентов ГОУ СПО «Вологодский педагогический колледж».
+			</p>
+			<p style="font-size: 15px">
+				• Выступала на открытом августовском педсовете «Приоритетные направления
+				развития муниципальной системы образования». Участвовала в работе
+				творческой группы муниципальной методической службы, выступала на МО
+				логопедов города, областном семинаре «Организация и управление
+				коррекционно-педагогическим процессом с детьми с нарушением речевого
+				развития в адаптивной школе» по теме «Организация и управление
+				коррекционно-образовательным процессом с детьми с нарушениями речевого
+				развития» (2007-2008 г). По результатам выступлений имеет статьи и
+				публикации методических разработок из опыта работы, а также публикации
+				конспектов уроков развития речи «Напиши Деду Морозу сейчас» в сборнике и
+				конспектов по окружающему миру на сайте (2008, 2009, 2010 г.).
+			</p>
+			<p style="font-size: 15px">
+				• Учащиеся являются победителями и призерами городского конкурса
+				«Детский компьютерный проект – 2009, 2010 г.».
+			</p>
+		</div>
+		<div id="more-teacherinfo6" style="text-decoration: none">
+			<h3 style="text-align: center">Хабина Елена Николаевна</h3>
+			<p style="font-size: 15px">• Победитель ПНПО – 2010</p>
+			<p style="font-size: 15px">
+				• Нагрудный знак «Почетный работник общего образования Российской
+				Федерации»
+			</p>
+			<p style="font-size: 15px">
+				• Победитель конкурса методических разработок уроков «Работа с
+				родителями в рамках изучения курса «ОРКиСЭ» и «Истоки»» (2014 г.).
+			</p>
+			<p style="font-size: 15px">
+				• Участник семинаров «Формы и методы работы с одаренными детьми в
+				урочной и внеурочной деятельности»; «использование современного
+				интерактивного оборудования для начальной школы в условиях реализации
+				ФГОС НОО».
+			</p>
+			<p style="font-size: 15px">
+				• Участник проведения показательных уроков и руководитель педагогической
+				практикой студентов ГОУ СПО «Вологодский педагогический колледж».
+			</p>
+			<p style="font-size: 15px">
+				• Имеет печатные работы в сборниках «Листы индивидуальных достижений
+				обучающихся в начальной школе» (2012, 2013, 2014 г.). Эффективный
+				педагогический опыт по теме «Реализация требований ФГОС НОО средствами
+				вариативных учебно-методических комплектов» (конспекты уроков) размещен
+				в Виртуальном методическом кабинете МОУ «ЦПК» .
+			</p>
+			<p style="font-size: 15px">
+				• Учащиеся являются активными участниками, победителями и призерами
+				городских и областных конкурсов.
+			</p>
+		</div>
+		<div id="more-teacherinfo7" style="text-decoration: none">
+			<h3 style="text-align: center">Ефименкова Евгения Валериевна</h3>
+
+			<p style="font-size: 15px">• Победитель ПНПО – 2010</p>
+			<p style="font-size: 15px">
+				• Почетная грамота Министерства образования Российской Федерации
+			</p>
+			<p style="font-size: 15px">• Лауреат премии имени П.А.Колесникова</p>
+			<p style="font-size: 15px">
+				• Награждена благодарностями и Почетной грамотой Управления образования
+				Администрации города Вологды.
+			</p>
+			<p style="font-size: 15px">
+				• Участвует в инновационной деятельности школы по использованию
+				информационных технологий в преподавании иностранного языка. Выступила с
+				обобщением опыта работы по теме: “Интерактивные методы обкучения
+				иностранным языкам” на городской научно-практической конференции в
+				августе 2010 года.
+			</p>
+			<p style="font-size: 15px">
+				• Разработала спецкурс “Культура и история Франции” для учащихся 8-9
+				классов в рамках преподавания второго иностранного языка в классах
+				гуманитарного профиля. В 2007 году материалы спецкурса были опубликованы
+				в сборнике «Элективные курсы» (издание МОУ «Центр повышения квалификации
+				педагогических работников образовательной системы г. Вологды»).
+			</p>
+			<p style="font-size: 15px">
+				• Руководит работой методического объединения учителей иностранного
+				языка школы, является наставником студентов Вологодского
+				государственного педагогического университета, направляемых на практику
+				по английскому и французскому языку, дает открытые уроки для учителей
+				школ города.
+			</p>
+			<p style="font-size: 15px">
+				• Уделяет большое внимание самообразованию. В 2002 году прошла обучение
+				на курсах при университете повышения квалификации учителей французского
+				языка, г. Гренобль, Франция; в 2005 году закончила курсы «Мастерство
+				текста» во Французском культурном центре Посольства Франции в России; в
+				2006 году стажировалась в Волгоградском государственном университете.
+			</p>
+		</div>
+		<div id="more-teacherinfo8" style="text-decoration: none">
+			<h3 style="text-align: center">Шумская Галина Витальевна</h3>
+			<p style="font-size: 15px">• Победитель ПНПО – 2010</p>
+			<p style="font-size: 15px">
+				• Нагрудный знак «Почетный работник общего образования Российской
+				Федерации».
+			</p>
+			<p style="font-size: 15px">• Почетная грамота Главы города Вологды</p>
+			<p style="font-size: 15px">
+				• Проводит открытые уроки для педагогов, администрации школ города по
+				профильному образованию.
+			</p>
+			<p style="font-size: 15px">
+				• В 2006 году тезисы статьи «О системе работы учителя математики по
+				развитию познавательного интереса учащихся» опубликованы в межвузовском
+				сборнике научно-методических работ «Современная математика и
+				математическое образование в вузах и школах России: опыт, тенденции,
+				проблемы».
+			</p>
+			<p style="font-size: 15px">
+				• В 2007 году выступила с докладом «О системе работы учителя математики
+				по формированию познавательного интереса к предмету» на V Колмогоровских
+				чтениях (г.Ярославль).
+			</p>
+			<p style="font-size: 15px">
+				• В 2008 году тезисы статьи «Развитие пространственного воображения
+				учащихся 5-6 классов с углубленным изучением математики» опубликованы в
+				материалах XXVII Всероссийского семинара преподавателей математики
+				университетов и педагогических вузов «Проблемы многоуровневой подготовки
+				учителей математики для современной школы» (г. Пермь).
+			</p>
+			<p style="font-size: 15px">
+				• Руководит педагогической практикой студентов физико-математического
+				факультета Вологодского государственного педагогического университета.
+			</p>
+		</div>
+		<div id="more-teacherinfo9" style="text-decoration: none">
+			<h3 style="text-align: center">Смирнова Инна Валерьевна</h3>
+			<p style="font-size: 15px">• Победитель ПНПО – 2011</p>
+			<p style="font-size: 15px">• Почетная грамота Главы города Вологда</p>
+			<p style="font-size: 15px">
+				• Победитель конкурса методических разработок, посвящённого 65-летию
+				Победы.
+			</p>
+			<p style="font-size: 15px">
+				• Участник проведения практических открытых уроков на семинарах
+				«Деятельностный подход в обучении», «Современные подходы к организации
+				образовательного процесса в начальной школе» для участников курсов
+				повышения профессионального мастерства педагогов города и области.
+				Участник проведения показательных уроков и руководитель педагогической
+				практикой студентов ГОУ СПО «Вологодский педагогический колледж».
+			</p>
+			<p style="font-size: 15px">
+				• Публикация в сборнике «Делай с нами! Делай как мы! Делай лучше нас!»
+				(Из опыта работы в детском лагере). Участник Всероссийского фестиваля
+				«Открытый урок»: публикация «Классный час с использованием
+				информационных технологий по теме: « Имя, знакомое с детства… Памяти
+				А.С. Пушкина».
+			</p>
+			<p style="font-size: 15px">
+				• Достижения учащихся: победитель городской олимпиады по русскому языку
+				(3 место) Смирнова Анастасия (2010год) Учащиеся являются участниками и
+				призёрами различных конкурсов.
+			</p>
+		</div>
+		<div id="more-teacherinfo10" style="text-decoration: none">
+			<h3 style="text-align: center">Курышева Людмила Петровна</h3>
+			<p style="font-size: 15px">• Победитель ПНПО – 2011</p>
+			<p style="font-size: 15px">
+				• Почетная грамота Министерства образования Российской Федерации
+			</p>
+			<p style="font-size: 15px">• Лауреат премии имени П.А. Колесникова</p>
+			<p style="font-size: 15px">• Почетная грамота Главы города Вологда</p>
+			<p style="font-size: 15px">
+				• Победитель межрегиональных конкурсов методических разработок по
+				литературе и русскому языку.
+			</p>
+			<p style="font-size: 15px">
+				• Победитель городского конкурса «Портфолио» в номинации «Гуманитарные
+				предметы».
+			</p>
+			<p style="font-size: 15px">
+				• Эксперт части «С» ЕГЭ. Публикации по материалам Всероссийских
+				Интернет-конференций
+			</p>
+			<p style="font-size: 15px">
+				• Учащиеся являются призёрами городских олимпиад по русскому языку;
+				победителями и лауреатами Интернет-проектов; победителями и участниками
+				научно-исследовательских конференций «Мир через культуру», «Мир науки
+				+», городских краеведческих чтений «Вологда в годы ВОв», Беловских
+				чтений.
+			</p>
+		</div>
+		<div id="more-teacherinfo11" style="text-decoration: none">
+			<h3 style="text-align: center">Смирнова Юлия Николаевна</h3>
+			<p style="font-size: 15px">
+				• Победитель городского конкурса «Учитель года» в номинации
+				«Педагогический дебют» 2010 года
+			</p>
+			<p style="font-size: 15px">• Почётная грамота Управления образования</p>
+			<p style="font-size: 15px">
+				• Победитель конкурса «Любимый учитель 2014». Победитель городского
+				конкурса методических разработок, посвященных 65-летию Победы в Великой
+				Отечественной войне (2010 г.). Участник областного конкурса методических
+				разработок (2010 г.). Участник конкурса на присуждение премии П.А.
+				Колесникова в области образования (2011, 2013 г.).
+			</p>
+			<p style="font-size: 15px">
+				• Участник конференции в рамках городского Форума работников
+				муниципальной системы образования (2011 г.), Межрегиональной
+				научно-практической конференции (2012 г.), научно-практической
+				конференции «Дни науки» в БОУ СПО ВО «Вологодский педагогический
+				колледж», а также опыт работы представлен на городском заседании МО
+				учителей начальных классов.
+			</p>
+			<p style="font-size: 15px">
+				• Участник проведения открытых уроков на семинаре в рамках работы школы
+				молодого педагога (2010 г.), на городском семинаре в рамках недели
+				обмена опытом работы по УМК «Гармония», показательных уроков и
+				руководитель практики студентов БОУ СПО ВО «Вологодский педагогический
+				колледж».
+			</p>
+			<p style="font-size: 15px">
+				• Имеются авторские публикации в научно–методическом журнале и сборниках
+				(2012, 2013, 2014 г.).
+			</p>
+			<p style="font-size: 15px">
+				• Учащиеся являются активными участниками и победителями городских и
+				областных конкурсов и олимпиад.
+			</p>
+		</div>
+		<div id="more-teacherinfo12" style="text-decoration: none">
+			<h3 style="text-align: center">Чумаков Владимир Анатольевич</h3>
+			<p style="font-size: 15px">
+				• Почетное звание «Заслуженный учитель Российской Федерации» Значок
+				“Отличник просвещения”
+			</p>
+			<p style="font-size: 15px">• Значок “Отличник просвещения”</p>
+			<p style="font-size: 15px">
+				• Лауреат всероссийского конкурса учителей математики и физики Фонда
+				Дмитрия Зимина «Династия» – 2008
+			</p>
+			<p style="font-size: 15px">• Медаль «Во имя детей»</p>
+			<p style="font-size: 15px">
+				• Наиболее одаренные учащиеся, начиная с 1979 года, ежегодно являются
+				победителями городских и областных олимпиад по физике, а его ученик Зуев
+				Константин в 1989 году выступал на международной физической олимпиаде в
+				Варшаве и получил бронзовую медаль. Михальчинец Тарас и Зуев Константин
+				были участниками всесоюзных олимпиад по физике в 1988, 1989,1990 годах,
+				а Макаров Михаил и Курышин Сергей участниками всероссийской олимпиады
+				1991, 1994 годов.
+			</p>
+			<p style="font-size: 15px">
+				• Делится своим опытом работы с учителями школы, города, области через
+				проведение открытых уроков. В 2005 – 06 учебном году провёл открытые
+				уроки по теме «Законы Ньютона» перед учителями г. Москвы и по теме
+				«Законы сохранения импульса и полной механической энергии» в ходе
+				семинара директоров школ г. Вологды «Профильное обучение – новая
+				стратегия российской школы»
+			</p>
+			<p style="font-size: 15px">
+				• Свой педагогический опыт передает студентам во время прохождения
+				педагогической практики.
+			</p>
+		</div>
+		<div id="more-teacherinfo13" style="text-decoration: none">
+			<h3 style="text-align: center">Бараева Ирина Анатольевна</h3>
+			<p style="font-size: 15px">• Лауреат премии имени П.А. Колесникова</p>
+			<p style="font-size: 15px">• Почетная грамота Главы города Вологды</p>
+			<p style="font-size: 15px">
+				• Почетная грамота министерства образования Российской Федерации
+			</p>
+			<p style="font-size: 15px">
+				• Подготовила победителей городских олимпиад по английскому языку (2004,
+				2005), призёров городских олимпиад (2007, 2008, 2009), Городской Малой
+				Олимпиады (2010, 2015, 2017, 2018), общегородской лингвистической
+				викторины (2006), областной олимпиады (2009), городского конкурса
+				литературных переводов «Лёгкое перо» (2007), лауреатов регионального
+				интеллектуально-творческого конкурса по иностранному языку (2011).
+			</p>
+			<p style="font-size: 15px">
+				• Является участником городского конкурса методических разработок уроков
+				с компьютерной поддержкой, городской научно-практической конференции
+				«Наша новая школа», межрегиональной научно-практической конференции
+				«Профессиональная культура педагога: традиции и современность»
+				(публикация), Всероссийского сетевого конкурса «Искусство для науки»,
+				городских семинаров для учителей иностранных языков.
+			</p>
+			<p style="font-size: 15px">
+				• Имеет печатные работы в сборнике «Листы индивидуальных достижений
+				обучающихся в начальной школе» (2015 г.).
+			</p>
+			<p style="font-size: 15px">
+				• Руководитель педагогической практики студентов ВоГУ.
+			</p>
+		</div>
+		<div id="more-teacherinfo14" style="text-decoration: none">
+			<h3 style="text-align: center">Шумская Галина Витальевна</h3>
+			<p style="font-size: 15px">
+				• Победитель I областного конкурса «Педагогический дебют» 2012 года
+			</p>
+			<p style="font-size: 15px">
+				• Лауреат всероссийского конкурса «Педагогический дебют» 2012 года
+			</p>
+			<p style="font-size: 15px">
+				• С отличием окончила физико – математический факультет Вологодского
+				государственного педагогического университета, удостоена звания «Лучший
+				выпускник — 2009».
+			</p>
+			<p style="font-size: 15px">
+				• В 2009 году принимала участие в III Всероссийской конференции
+				студентов, аспирантов и молодых ученых, имеет публикацию статьи
+				«Проблема соотношения знаний и информации» в научном издании
+				«Искусственный интеллект: философия, методология, инновации».
+			</p>
+			<p style="font-size: 15px">
+				• Подготовила победителя городской олимпиады — 2011 по математике.
+			</p>
+		</div>
+		<div id="more-teacherinfo15" style="text-decoration: none">
+			<h3 style="text-align: center">Шумская Галина Витальевна</h3>
+			<p style="font-size: 15px">•</p>
+		</div>
+		<div id="more-teacherinfo16" style="text-decoration: none">
+			<h3 style="text-align: center">Шумская Галина Витальевна</h3>
+			<p style="font-size: 15px">•</p>
+		</div>
+		<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+		<script src="./js/main.js"></script>
+		<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+		<script src="./js/jquery.fancybox.js"></script>
+	</body>
 </html>
