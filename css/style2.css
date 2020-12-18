@@ -773,7 +773,7 @@ td.rightcol {
 		height: 160px;
 	}
 	.vov-image__portrait {
-		height: 160px;
+		/* height: 160px; */
 	}
 	.image {
 		width: 200px;
@@ -826,7 +826,7 @@ td.rightcol {
 		height: 160px;
 	}
 	.vov-image__portrait {
-		height: 210px;
+		/* height: 210px; */
 	}
 	.drujina-more__title {
 		text-align: center;
@@ -872,8 +872,8 @@ td.rightcol {
 		width: 170px;
 	}
 	.vov-image__portrait {
-		height: 220px;
-		width: 170px;
+		/* height: 220px; */
+		/* width: 170px; */
 	}
 
 	.image {
@@ -927,8 +927,8 @@ td.rightcol {
 		width: 200px;
 	}
 	.vov-image__portrait {
-		height: 290px;
-		width: 200px;
+		/* height: 290px; */
+		/* width: 200px; */
 	}
 	.history-image {
 		width: 370px;
@@ -1009,10 +1009,7 @@ td.rightcol {
 		height: 550px;
 		width: 400px;
 	}
-	.vov-image__portrait {
-		height: 300px;
-		width: 210px;
-	}
+
 	.clubs-card {
 		width: 377px;
 		height: 528px;
@@ -1088,6 +1085,13 @@ td.rightcol {
 	}
 	.hospital-content > #hospital-card8 {
 		grid-column: 1;
+	}
+}
+
+@media (max-width: 1400px) {
+	.vov-image__portrait {
+		height: calc(160px + (300 - 160) * ((100vw - 320px) / (800 - 320)));
+		width: calc(130px + (210 - 130) * ((100vw - 320px) / (800 - 320)));
 	}
 }
 
