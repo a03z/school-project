@@ -772,9 +772,6 @@ td.rightcol {
   .history-image__portrait {
     height: 160px;
   }
-  .vov-image__portrait {
-    /* height: 160px; */
-  }
   .image {
     width: 200px;
     height: 160px;
@@ -825,9 +822,7 @@ td.rightcol {
   .history-image__portrait {
     height: 160px;
   }
-  .vov-image__portrait {
-    /* height: 210px; */
-  }
+
   .drujina-more__title {
     text-align: center;
     font-size: 22px;
@@ -870,10 +865,6 @@ td.rightcol {
   .history-image__portrait {
     height: 220px;
     width: 170px;
-  }
-  .vov-image__portrait {
-    /* height: 220px; */
-    /* width: 170px; */
   }
 
   .image {
@@ -926,10 +917,7 @@ td.rightcol {
     height: 290px;
     width: 200px;
   }
-  .vov-image__portrait {
-    /* height: 290px; */
-    /* width: 200px; */
-  }
+
   .history-image {
     width: 370px;
     height: 260px;
