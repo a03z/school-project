@@ -53,7 +53,7 @@ h5 {
 }
 
 /************ Основное меню ************/
-.header {
+header {
   position: relative;
   top: 0;
   left: 0;
@@ -109,7 +109,7 @@ h5 {
 .menu.active {
   visibility: visible;
   opacity: 1;
-  backdrop-filter: blur(4px);
+  backdrop-filter: blur(5px);
 }
 
 .menu-content {
@@ -533,9 +533,38 @@ td.rightcol {
 .teachers {
   align-items: center;
   display: flex;
-  flex-wrap: wrap;
   flex-direction: column;
   width: 100%;
+}
+
+.memories {
+  padding: 15px;
+  margin-bottom: 50px;
+}
+
+.memories h1 {
+  text-align: center;
+  margin: 30px;
+}
+
+.memories h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+
+.memories-card {
+  margin: 35px auto;
+  padding: 10px;
+  border: 1px solid white;
+  background-color: rgba(255, 255, 255, 0.15);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.35);
+  border-radius: 15px;
+}
+
+.memories-card__text {
+  max-width: 85%;
+  margin: auto;
 }
 
 /************ Дружина Елизаветы Чайкиной ************/
@@ -886,6 +915,10 @@ td.rightcol {
   .history-slide {
     margin-bottom: 150px;
   }
+  .memories-card {
+    max-width: 70%;
+    padding: 20px;
+  }
 }
 
 @media (min-width: 1000px) {
@@ -1075,13 +1108,6 @@ td.rightcol {
     grid-column: 1;
   }
 }
-
-/* @media (max-width: 1400px) {
-  .vov-image__portrait {
-    height: calc(160px + (230 - 160) * ((100vw - 320px) / (800 - 320)));
-    width: calc(130px + (160 - 130) * ((100vw - 320px) / (800 - 320)));
-  }
-} */
 
 /* 4fun poni */
 #poni {
