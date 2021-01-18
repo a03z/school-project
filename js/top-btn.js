@@ -1,4 +1,4 @@
-let goTopBtn = document.getElementById("top");
+const goTopBtn = document.getElementById("top");
 
 window.addEventListener("scroll", trackScroll);
 goTopBtn.addEventListener("click", backToTop);
@@ -10,8 +10,8 @@ function backToTop() {
 }
 
 function trackScroll() {
-  var scrolled = window.pageYOffset;
-  var coords = document.documentElement.clientHeight;
+  let scrolled = window.pageYOffset;
+  let coords = document.documentElement.clientHeight;
 
   if (scrolled > coords) {
     goTopBtn.classList.add("top-show");
