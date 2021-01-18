@@ -52,6 +52,32 @@ h5 {
   margin: 10px 0;
 }
 
+.text {
+  padding: 50px;
+}
+
+#top {
+  width: 40px;
+  height: 40px;
+  content: url(/img/up-arrow.svg);
+  border: 1px solid white;
+  background-color: rgba(255, 255, 255, 0.15);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.35);
+  border-radius: 50%;
+  padding: 10px;
+  text-decoration: none;
+  cursor: pointer;
+  position: fixed;
+  right: 60px;
+  bottom: 20px;
+  display: none;
+  z-index: 99;
+}
+
+#top.top-show {
+  display: block;
+}
+
 /************ Основное меню ************/
 header {
   position: relative;
