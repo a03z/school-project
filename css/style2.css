@@ -59,7 +59,6 @@ h5 {
 #top {
   width: 40px;
   height: 40px;
-  /* content: url(/img/up-arrow.svg); */
   border: 1px solid white;
   background-color: rgba(255, 255, 255, 0.15);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.35);
@@ -68,8 +67,8 @@ h5 {
   text-decoration: none;
   cursor: pointer;
   position: fixed;
-  right: 60px;
-  bottom: 20px;
+  right: 10px;
+  bottom: 10px;
   opacity: 0;
   display: flex;
   place-items: center;
@@ -85,7 +84,7 @@ h5 {
 }
 
 /************ Основное меню ************/
-header {
+.header {
   position: relative;
   top: 0;
   left: 0;
@@ -1039,6 +1038,10 @@ td.rightcol {
   }
   .pagination-show {
     display: block;
+  }
+  #top {
+    right: 60px;
+    bottom: 20px;
   }
 }
 
