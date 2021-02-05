@@ -1,367 +1,442 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Сайт-музей МОУ СОШ №8 Вологда</title>
-    <link rel="stylesheet" href="./css/style2.css" />
-    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css" />
-    <link
-      rel="stylesheet"
-      href="https://unpkg.com/swiper/swiper-bundle.min.css"
-    />
-    <link
-      rel="apple-touch-icon"
-      sizes="57x57"
-      href="http://school8-vologda.ru/wp-content/themes/school8/images/favicon/apple-icon-57x57.png"
-    />
-    <link
-      rel="apple-touch-icon"
-      sizes="60x60"
-      href="http://school8-vologda.ru/wp-content/themes/school8/images/favicon/apple-icon-60x60.png"
-    />
-    <link
-      rel="apple-touch-icon"
-      sizes="72x72"
-      href="http://school8-vologda.ru/wp-content/themes/school8/images/favicon/apple-icon-72x72.png"
-    />
-    <link
-      rel="apple-touch-icon"
-      sizes="76x76"
-      href="http://school8-vologda.ru/wp-content/themes/school8/images/favicon/apple-icon-76x76.png"
-    />
-    <link
-      rel="apple-touch-icon"
-      sizes="114x114"
-      href="http://school8-vologda.ru/wp-content/themes/school8/images/favicon/apple-icon-114x114.png"
-    />
-    <link
-      rel="apple-touch-icon"
-      sizes="120x120"
-      href="http://school8-vologda.ru/wp-content/themes/school8/images/favicon/apple-icon-120x120.png"
-    />
-    <link
-      rel="apple-touch-icon"
-      sizes="144x144"
-      href="http://school8-vologda.ru/wp-content/themes/school8/images/favicon/apple-icon-144x144.png"
-    />
-    <link
-      rel="apple-touch-icon"
-      sizes="152x152"
-      href="http://school8-vologda.ru/wp-content/themes/school8/images/favicon/apple-icon-152x152.png"
-    />
-    <link
-      rel="apple-touch-icon"
-      sizes="180x180"
-      href="http://school8-vologda.ru/wp-content/themes/school8/images/favicon/apple-icon-180x180.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="192x192"
-      href="http://school8-vologda.ru/wp-content/themes/school8/images/favicon/android-icon-192x192.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="http://school8-vologda.ru/wp-content/themes/school8/images/favicon/favicon-32x32.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="96x96"
-      href="http://school8-vologda.ru/wp-content/themes/school8/images/favicon/favicon-96x96.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="16x16"
-      href="http://school8-vologda.ru/wp-content/themes/school8/images/favicon/favicon-16x16.png"
-    />
-    <link
-      rel="manifest"
-      href="http://school8-vologda.ru/wp-content/themes/school8/images/favicon/manifest.json"
-    />
-  </head>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Сайт-музей МОУ СОШ №8 Вологда</title>
+        <link rel="stylesheet" href="./css/style2.css" />
+        <link
+            rel="stylesheet"
+            href="https://unpkg.com/swiper/swiper-bundle.css"
+        />
+        <link
+            rel="stylesheet"
+            href="https://unpkg.com/swiper/swiper-bundle.min.css"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="57x57"
+            href="http://school8-vologda.ru/wp-content/themes/school8/images/favicon/apple-icon-57x57.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="60x60"
+            href="http://school8-vologda.ru/wp-content/themes/school8/images/favicon/apple-icon-60x60.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="72x72"
+            href="http://school8-vologda.ru/wp-content/themes/school8/images/favicon/apple-icon-72x72.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="76x76"
+            href="http://school8-vologda.ru/wp-content/themes/school8/images/favicon/apple-icon-76x76.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="114x114"
+            href="http://school8-vologda.ru/wp-content/themes/school8/images/favicon/apple-icon-114x114.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="120x120"
+            href="http://school8-vologda.ru/wp-content/themes/school8/images/favicon/apple-icon-120x120.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="144x144"
+            href="http://school8-vologda.ru/wp-content/themes/school8/images/favicon/apple-icon-144x144.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="152x152"
+            href="http://school8-vologda.ru/wp-content/themes/school8/images/favicon/apple-icon-152x152.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="180x180"
+            href="http://school8-vologda.ru/wp-content/themes/school8/images/favicon/apple-icon-180x180.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="192x192"
+            href="http://school8-vologda.ru/wp-content/themes/school8/images/favicon/android-icon-192x192.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="32x32"
+            href="http://school8-vologda.ru/wp-content/themes/school8/images/favicon/favicon-32x32.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="96x96"
+            href="http://school8-vologda.ru/wp-content/themes/school8/images/favicon/favicon-96x96.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="16x16"
+            href="http://school8-vologda.ru/wp-content/themes/school8/images/favicon/favicon-16x16.png"
+        />
+        <link
+            rel="manifest"
+            href="http://school8-vologda.ru/wp-content/themes/school8/images/favicon/manifest.json"
+        />
+    </head>
 
-  <body>
-    <div class="wrapper">
-      <div class="container">
-        <header class="header">
-          <div class="header-btn">Меню</div>
-        </header>
-        <div class="presentaion__wrapper swiper-container">
-          <div class="presentaion swiper-wrapper">
-            <div class="presentaion__item swiper-slide">
-              <section class="history-slide">
-                <div class="content-vov" style="align-items: center">
-                  <p style="display: flex; justify-content: center">
-                    <img
-                      src="img/history/VOV1.png"
-                      class="history-image__vov"
-                    />
-                  </p>
-                  <p class="history-text">
-                    • В сентябре 1941 года был сформирован эвакогоспиталь №
-                    1538. Со дня своего основания госпиталь находился в двух
-                    зданиях: в трехэтажном кирпичном здании педагогического
-                    института по улице Маяковского (ныне ул. С. Орлова),
-                    <b
-                      >6 и в здании школы № 33 (ныне школа № 8) по адресу:
-                      набережная Свободы (ныне ул. Мира), 22.</b
-                    >
-                    В этих помещениях располагались 3 терапевтических и 4
-                    хирургических отделения.
-                  </p>
-                </div>
-                <h1 class="clubs-name">
-                  Школа во время Великой Отечественной войны.
-                </h1>
-              </section>
-            </div>
-            <div class="presentaion__item swiper-slide">
-              <section class="history-slide">
-                <div class="content-vov" style="align-items: center">
-                  <p style="display: flex; justify-content: center">
-                    <img
-                      src="img/history/VOV2.png"
-                      class="history-image__vov"
-                    />
-                  </p>
+    <body>
+        <div class="wrapper">
+            <div class="container">
+                <header class="header">
+                    <div class="header-btn">Меню</div>
+                </header>
+                <div class="presentaion__wrapper swiper-container">
+                    <div class="presentaion swiper-wrapper">
+                        <div class="presentaion__item swiper-slide">
+                            <section class="history-slide">
+                                <div
+                                    class="content-vov"
+                                    style="align-items: center"
+                                >
+                                    <p
+                                        style="
+                                            display: flex;
+                                            justify-content: center;
+                                        "
+                                    >
+                                        <img
+                                            src="img/history/VOV1.png"
+                                            class="history-image__vov"
+                                        />
+                                    </p>
+                                    <p class="history-text">
+                                        • В сентябре 1941 года был сформирован
+                                        эвакогоспиталь № 1538. Со дня своего
+                                        основания госпиталь находился в двух
+                                        зданиях: в трехэтажном кирпичном здании
+                                        педагогического института по улице
+                                        Маяковского (ныне ул. С. Орлова),
+                                        <b
+                                            >6 и в здании школы № 33 (ныне школа
+                                            № 8) по адресу: набережная Свободы
+                                            (ныне ул. Мира), 22.</b
+                                        >
+                                        В этих помещениях располагались 3
+                                        терапевтических и 4 хирургических
+                                        отделения.
+                                    </p>
+                                </div>
+                                <h1 class="clubs-name">
+                                    Школа во время Великой Отечественной войны.
+                                </h1>
+                            </section>
+                        </div>
+                        <div class="presentaion__item swiper-slide">
+                            <section class="history-slide">
+                                <div
+                                    class="content-vov"
+                                    style="align-items: center"
+                                >
+                                    <p
+                                        style="
+                                            display: flex;
+                                            justify-content: center;
+                                        "
+                                    >
+                                        <img
+                                            src="img/history/VOV2.png"
+                                            class="history-image__vov"
+                                        />
+                                    </p>
 
-                  <p class="history-text">
-                    • В трудные военные годы лозунг был «Все для фронта, все для
-                    победы!» А в городе часто не было света, учились в три
-                    смены, сидели с керосиновыми лампами. Бойцы писали
-                    школьникам так: «Учитесь, ребята, мы стоим на защите Родины,
-                    а вы отличными оценками бьете с тыла врага»
-                  </p>
-                </div>
-                <h1 class="clubs-name">
-                  А вы отличными оценками бьете с тыла врага...
-                </h1>
-              </section>
-            </div>
-            <div class="presentaion__item swiper-slide">
-              <section class="history-slide">
-                <div class="content-vov" style="align-items: center">
-                  <figure>
-                    <p style="display: flex; justify-content: center">
-                      <img
-                        src="img/history/VOV3.jpg"
-                        class="history-image__vov"
-                      />
-                    </p>
-                    <figcaption>
-                      <ul>
-                        <li class="history-text">
-                          Все учителя и ученики работали в эвакогоспитале,
-                          собирали вещи для раненых, читали им, устраивали для
-                          них концерты. Некоторые учителя ушли на фронт.p
-                        </li>
-                        <li class="history-text">
-                          Первый директор школы Лазарев Георгий Константинович
-                          был взят на фронт. На оккупированных территориях
-                          работала Надежда Васильевна Бойцова, во время войны в
-                          школе работала Гуниp на Валентина Константиновна,
-                          учитель физики, Марюкова Екатерина Борисовна, учитель
-                          русского языка и литературы
-                        </li>
-                      </ul>
-                    </figcaption>
-                  </figure>
-                </div>
-                <h1 class="clubs-name">Учителя на войне</h1>
-              </section>
-            </div>
-            <div class="presentaion__item swiper-slide">
-              <section class="history-slide">
-                <div class="content-vov" style="align-items: center">
-                  <p
-                    style="
-                      display: flex;
-                      justify-content: left;
-                      text-align: center;
-                      align-items: center;
-                    "
-                  >
-                    <img
-                      src="img/history/uchitelya/valentina.jpg"
-                      class="vov-image__portrait"
-                    />
-                    <a>
-                      Учитель физкультуры,<br />
-                      участник Великой Отечественной войны
-                      <h4>Кичигина Валентина Па вловна</h4>
-                    </a>
-                  </p>
-                  <ul
-                    style="
-                      display: inline-flex;
-                      flex-wrap: wrap;
-                      justify-content: center;
-                    "
-                  >
-                    <li class="history-text">
-                      «Наш 106-й батальон был сформирован в Вологде 10 марта
-                      1942 года. Прошел от Вологды до Кенигсберга. Боевая задача
-                      – слежение за воздушным пространством. Не раз сами
-                      попадали под бомбежки, посты вырезались власовскими
-                      головорезами. Посты 106 батальона охраняли «Дорогу жизни»
-                      на Ладоге.
-                    </li>
-                    <li class="history-text">
-                      Мало нас осталось, все чаще узнаем о смерти боевых
-                      товарищей,» - вспоминает В.П.Кичигина.
-                    </li>
-                    <li class="history-text">
-                      После войны Валентина Павловна много лет проработала
-                      учителем средней школы №8 г. Вологды
-                    </li>
-                  </ul>
-                </div>
-              </section>
-            </div>
-            <div class="presentaion__item swiper-slide">
-              <section class="history-slide">
-                <div class="content-vov" style="align-items: center">
-                  <figure>
-                    <p
-                      style="
-                        display: flex;
-                        justify-content: left;
-                        align-items: center;
-                      "
-                    >
-                      <img
-                        src="img/history/uchitelya/smirnova.jpg"
-                        class="vov-image__portrait"
-                      />
-                      <a
-                        >Учитель начальных классов.
-                        <h4>Смирнова Нина Ивановна</h4>
-                      </a>
-                    </p>
-                    <figcaption>
-                      <ul
-                        style="
-                          display: inline-flex;
-                          flex-wrap: wrap;
-                          justify-content: space-around;
-                        "
-                      >
-                        <li class="history-text">
-                          Ее боевой путь начался 23 января 1943 года.
-                          Добровольцем записалась в Волховстрое в службы,
-                          обеспечивающие прохождение поездов в Ленинград. Их
-                          задача была восстановить разрушенные мосты,
-                          железнодорожные пути.
-                        </li>
-                        <li class="history-text">
-                          Награждена медалью Георгия Жукова, знаком «Фронтовик
-                          1941 – 1945», медалью 55-летия Победы.
-                        </li>
-                        <li class="history-text">
-                          Закончила Вологодское педагогическое училище. Работала
-                          учителем в 28 школе, затем долгие годы в школе №8.
-                        </li>
-                      </ul>
-                    </figcaption>
-                  </figure>
-                </div>
-              </section>
-            </div>
-            <div class="presentaion__item swiper-slide">
-              <section class="history-slide">
-                <div class="content-vov" style="align-items: center">
-                  <p
-                    style="
-                      display: flex;
-                      justify-content: left;
-                      align-items: center;
-                    "
-                  >
-                    <img
-                      src="img/history/uchitelya/chezlov.jpg"
-                      class="vov-image__portrait"
-                    />
-                    <a
-                      >Учитель русского языка и литературы.
-                      <h4>Чезлов Николай Васильевич</h4>
-                    </a>
-                  </p>
+                                    <p class="history-text">
+                                        • В трудные военные годы лозунг был «Все
+                                        для фронта, все для победы!» А в городе
+                                        часто не было света, учились в три
+                                        смены, сидели с керосиновыми лампами.
+                                        Бойцы писали школьникам так: «Учитесь,
+                                        ребята, мы стоим на защите Родины, а вы
+                                        отличными оценками бьете с тыла врага»
+                                    </p>
+                                </div>
+                                <h1 class="clubs-name">
+                                    А вы отличными оценками бьете с тыла
+                                    врага...
+                                </h1>
+                            </section>
+                        </div>
+                        <div class="presentaion__item swiper-slide">
+                            <section class="history-slide">
+                                <div
+                                    class="content-vov"
+                                    style="align-items: center"
+                                >
+                                    <figure>
+                                        <p
+                                            style="
+                                                display: flex;
+                                                justify-content: center;
+                                            "
+                                        >
+                                            <img
+                                                src="img/history/VOV3.jpg"
+                                                class="history-image__vov"
+                                            />
+                                        </p>
+                                        <figcaption>
+                                            <ul>
+                                                <li class="history-text">
+                                                    Все учителя и ученики
+                                                    работали в эвакогоспитале,
+                                                    собирали вещи для раненых,
+                                                    читали им, устраивали для
+                                                    них концерты. Некоторые
+                                                    учителя ушли на фронт.p
+                                                </li>
+                                                <li class="history-text">
+                                                    Первый директор школы
+                                                    Лазарев Георгий
+                                                    Константинович был взят на
+                                                    фронт. На оккупированных
+                                                    территориях работала Надежда
+                                                    Васильевна Бойцова, во время
+                                                    войны в школе работала Гуниp
+                                                    на Валентина Константиновна,
+                                                    учитель физики, Марюкова
+                                                    Екатерина Борисовна, учитель
+                                                    русского языка и литературы
+                                                </li>
+                                            </ul>
+                                        </figcaption>
+                                    </figure>
+                                </div>
+                                <h1 class="clubs-name">Учителя на войне</h1>
+                            </section>
+                        </div>
+                        <div class="presentaion__item swiper-slide">
+                            <section class="history-slide">
+                                <div
+                                    class="content-vov"
+                                    style="align-items: center"
+                                >
+                                    <p
+                                        style="
+                                            display: flex;
+                                            justify-content: left;
+                                            text-align: center;
+                                            align-items: center;
+                                        "
+                                    >
+                                        <img
+                                            src="img/history/uchitelya/valentina.jpg"
+                                            class="vov-image__portrait"
+                                        />
+                                        <a>
+                                            Учитель физкультуры,<br />
+                                            участник Великой Отечественной войны
+                                            <h4>
+                                                Кичигина Валентина Па вловна
+                                            </h4>
+                                        </a>
+                                    </p>
+                                    <ul
+                                        style="
+                                            display: inline-flex;
+                                            flex-wrap: wrap;
+                                            justify-content: center;
+                                        "
+                                    >
+                                        <li class="history-text">
+                                            «Наш 106-й батальон был сформирован
+                                            в Вологде 10 марта 1942 года. Прошел
+                                            от Вологды до Кенигсберга. Боевая
+                                            задача – слежение за воздушным
+                                            пространством. Не раз сами попадали
+                                            под бомбежки, посты вырезались
+                                            власовскими головорезами. Посты 106
+                                            батальона охраняли «Дорогу жизни» на
+                                            Ладоге.
+                                        </li>
+                                        <li class="history-text">
+                                            Мало нас осталось, все чаще узнаем о
+                                            смерти боевых товарищей,» -
+                                            вспоминает В.П.Кичигина.
+                                        </li>
+                                        <li class="history-text">
+                                            После войны Валентина Павловна много
+                                            лет проработала учителем средней
+                                            школы №8 г. Вологды
+                                        </li>
+                                    </ul>
+                                </div>
+                            </section>
+                        </div>
+                        <div class="presentaion__item swiper-slide">
+                            <section class="history-slide">
+                                <div
+                                    class="content-vov"
+                                    style="align-items: center"
+                                >
+                                    <figure>
+                                        <p
+                                            style="
+                                                display: flex;
+                                                justify-content: left;
+                                                align-items: center;
+                                            "
+                                        >
+                                            <img
+                                                src="img/history/uchitelya/smirnova.jpg"
+                                                class="vov-image__portrait"
+                                            />
+                                            <a
+                                                >Учитель начальных классов.
+                                                <h4>Смирнова Нина Ивановна</h4>
+                                            </a>
+                                        </p>
+                                        <figcaption>
+                                            <ul
+                                                style="
+                                                    display: inline-flex;
+                                                    flex-wrap: wrap;
+                                                    justify-content: space-around;
+                                                "
+                                            >
+                                                <li class="history-text">
+                                                    Ее боевой путь начался 23
+                                                    января 1943 года.
+                                                    Добровольцем записалась в
+                                                    Волховстрое в службы,
+                                                    обеспечивающие прохождение
+                                                    поездов в Ленинград. Их
+                                                    задача была восстановить
+                                                    разрушенные мосты,
+                                                    железнодорожные пути.
+                                                </li>
+                                                <li class="history-text">
+                                                    Награждена медалью Георгия
+                                                    Жукова, знаком «Фронтовик
+                                                    1941 – 1945», медалью
+                                                    55-летия Победы.
+                                                </li>
+                                                <li class="history-text">
+                                                    Закончила Вологодское
+                                                    педагогическое училище.
+                                                    Работала учителем в 28
+                                                    школе, затем долгие годы в
+                                                    школе №8.
+                                                </li>
+                                            </ul>
+                                        </figcaption>
+                                    </figure>
+                                </div>
+                            </section>
+                        </div>
+                        <div class="presentaion__item swiper-slide">
+                            <section class="history-slide">
+                                <div
+                                    class="content-vov"
+                                    style="align-items: center"
+                                >
+                                    <p
+                                        style="
+                                            display: flex;
+                                            justify-content: left;
+                                            align-items: center;
+                                        "
+                                    >
+                                        <img
+                                            src="img/history/uchitelya/chezlov.jpg"
+                                            class="vov-image__portrait"
+                                        />
+                                        <a
+                                            >Учитель русского языка и
+                                            литературы.
+                                            <h4>Чезлов Николай Васильевич</h4>
+                                        </a>
+                                    </p>
 
-                  <ul
-                    style="
-                      display: inline-flex;
-                      flex-wrap: wrap;
-                      justify-content: space-around;
-                    "
-                  >
-                    <li class="history-text">
-                      Николай Васильевич родился в 1927 году. В 1941 году
-                      призван в ряды РККА. Вернулся в 1945, участвовал в боевых
-                      действиях, трижды ранен, отморозил ноги . После
-                      возвращения с войны стал учителем. Долгое время работал в
-                      20 школе г.Вологды, затем несколько лет в восьмой, где он
-                      работал в осноPвном с «трудными» детьми. По воспоминаниям
-                      коллег, был щедрым человеком, веселым, энергичным,
-                      заводным, любил рыбалку, экскурсии, поездки. Везде о нем
-                      отзываются как о человеке большой души.
-                    </li>
-                    <li class="history-text">
-                      В школе №8 он работал недолго, но оставил о себе добрую
-                      память. Он умер в октябре 2002 года.
-                    </li>
-                  </ul>
+                                    <ul
+                                        style="
+                                            display: inline-flex;
+                                            flex-wrap: wrap;
+                                            justify-content: space-around;
+                                        "
+                                    >
+                                        <li class="history-text">
+                                            Николай Васильевич родился в 1927
+                                            году. В 1941 году призван в ряды
+                                            РККА. Вернулся в 1945, участвовал в
+                                            боевых действиях, трижды ранен,
+                                            отморозил ноги . После возвращения с
+                                            войны стал учителем. Долгое время
+                                            работал в 20 школе г.Вологды, затем
+                                            несколько лет в восьмой, где он
+                                            работал в осноPвном с «трудными»
+                                            детьми. По воспоминаниям коллег, был
+                                            щедрым человеком, веселым,
+                                            энергичным, заводным, любил рыбалку,
+                                            экскурсии, поездки. Везде о нем
+                                            отзываются как о человеке большой
+                                            души.
+                                        </li>
+                                        <li class="history-text">
+                                            В школе №8 он работал недолго, но
+                                            оставил о себе добрую память. Он
+                                            умер в октябре 2002 года.
+                                        </li>
+                                    </ul>
+                                </div>
+                            </section>
+                        </div>
+                    </div>
+                    <div class="swiper-scrollbar"></div>
                 </div>
-              </section>
             </div>
-          </div>
-          <div class="swiper-scrollbar"></div>
         </div>
-      </div>
-    </div>
 
-    <footer class="footer">
-      <span class="footer-copyright"> МОУ СОШ №8 </span>
-    </footer>
+        <footer class="footer">
+            <span class="footer-copyright"> МОУ СОШ №8 </span>
+        </footer>
 
-    <div class="menu" id="menu">
-      <div class="menu-content">
-        <a href="./obrazovanie.html" class="menu-content__link"
-          >Образование школы</a
-        >
-        <a href="./shkola-v-VOV.html" class="menu-content__link active"
-          >Школа в годы Великой Отечественной войны</a
-        >
-        <a href="./istoria-hospitala.html" class="menu-content__link"
-          >История эвакогоспиталя</a
-        >
-        <a href="./directora.html" class="menu-content__link"
-          >Директора школы</a
-        >
-        <a href="./uchitelya.html" class="menu-content__link">Учителя школы</a>
-        <a href="./vypuskniki.html" class="menu-content__link"
-          >Ими гордится школа: выпускники</a
-        >
-        <a href="./istoria-shkoly-ussr.html" class="menu-content__link"
-          >История школы: Советский период</a
-        >
-        <a href="./pionerskaya-drujina-GSS.html" class="menu-content__link"
-          >История пионерской дружины имени Елизаветы Чайкиной</a
-        >
-        <a href="./klubnoe-dvijenie.html" class="menu-content__link"
-          >Клубное движение</a
-        >
-      </div>
-      <img src="./img/menu/close.svg" alt="Закрыть" class="menu-close" />
-    </div>
+        <div class="menu" id="menu">
+            <div class="menu-content">
+                <a href="./obrazovanie.html" class="menu-content__link"
+                    >Образование школы</a
+                >
+                <a href="./shkola-v-VOV.html" class="menu-content__link active"
+                    >Школа в годы Великой Отечественной войны</a
+                >
+                <a href="./istoria-hospitala.html" class="menu-content__link"
+                    >История эвакогоспиталя</a
+                >
 
-    <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
-    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-    <script src="./js/main.js"></script>
-    <script src="./js/swiper2.js"></script>
-  </body>
+                <a href="./uchitelya.html" class="menu-content__link"
+                    >Учителя школы</a
+                >
+                <a href="./vypuskniki.html" class="menu-content__link"
+                    >Ими гордится школа: выпускники</a
+                >
+
+                <a
+                    href="./pionerskaya-drujina-GSS.html"
+                    class="menu-content__link"
+                    >История пионерской дружины имени Елизаветы Чайкиной</a
+                >
+                <a href="./klubnoe-dvijenie.html" class="menu-content__link"
+                    >Клубное движение</a
+                >
+            </div>
+            <img src="./img/menu/close.svg" alt="Закрыть" class="menu-close" />
+        </div>
+
+        <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+        <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+        <script src="./js/main.js"></script>
+        <script src="./js/swiper2.js"></script>
+    </body>
 </html>
