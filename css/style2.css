@@ -71,7 +71,8 @@ h5 {
     bottom: 10px;
     opacity: 0;
     display: flex;
-    place-items: center;
+    justify-content: center;
+    align-items: center;
     z-index: 99;
     transition: all 0.3s ease;
 }
@@ -680,11 +681,8 @@ td.rightcol {
     text-align: center;
 }
 .clubs-list {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 20px;
-    flex-wrap: wrap;
-    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
 }
 .clubs-list__slide {
     height: 100%;
@@ -695,8 +693,8 @@ td.rightcol {
     position: relative;
 }
 .clubs-card {
-    width: 267px;
-    height: 450px;
+    width: 80%;
+    height: auto;
     left: calc(50% - 267px / 2 - 0.5px);
     top: 80px;
 
@@ -709,6 +707,7 @@ td.rightcol {
     border-radius: 15px;
 
     margin: 20px auto;
+    padding: 15px;
 }
 
 /************ Кнопки "Больше информации" ************/
@@ -941,8 +940,6 @@ td.rightcol {
         font-size: 20px;
     }
     .clubs-card {
-        width: 267px;
-        height: 460px;
         margin: 20px auto;
     }
 
@@ -1013,22 +1010,9 @@ td.rightcol {
         justify-content: center;
         flex-wrap: wrap;
     }
-    .clubs-list {
-        align-items: center;
-        display: flex;
-        justify-content: space-between;
-        flex-wrap: wrap;
-    }
+
     .clubs-card {
-        width: 267px;
-        height: 460px;
         margin: 20px auto;
-    }
-    .clubs-item__textcenter {
-        margin-top: 90px;
-    }
-    .clubs-item__textcenter2 {
-        margin-top: 40px;
     }
     .menu-close {
         top: 45px;
@@ -1060,11 +1044,6 @@ td.rightcol {
     .history-image__portrait {
         height: 550px;
         width: 400px;
-    }
-
-    .clubs-card {
-        width: 377px;
-        height: 528px;
     }
 }
 
@@ -1137,6 +1116,13 @@ td.rightcol {
     }
     .hospital-content > #hospital-card8 {
         grid-column: 1;
+    }
+    .clubs-list {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(2, 1fr);
+    }
+    .clubs-card {
+        width: 60%;
     }
 }
 
