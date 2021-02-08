@@ -710,6 +710,12 @@ td.rightcol {
     padding: 15px;
 }
 
+.clubs-card ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 /************ Кнопки "Больше информации" ************/
 #more-teacherinfo,
 #more-teacherinfo2,
