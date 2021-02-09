@@ -693,8 +693,10 @@ td.rightcol {
     position: relative;
 }
 .clubs-card {
+    flex-direction: column;
+    display: flex;
     width: 80%;
-    height: auto;
+    height: 100%;
     left: calc(50% - 267px / 2 - 0.5px);
     top: 80px;
 
