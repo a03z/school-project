@@ -717,7 +717,6 @@ td.rightcol {
     flex-direction: column;
     align-items: center;
 }
-
 /************ Кнопки "Больше информации" ************/
 #more-teacherinfo,
 #more-teacherinfo2,
@@ -821,6 +820,9 @@ td.rightcol {
     display: -ms-flexbox;
     display: -webkit-flex;
     display: flex;
+    height: 860px;
+    bottom: 70px;
+    flex-direction: column;
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     -webkit-justify-content: center;
