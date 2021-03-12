@@ -33,6 +33,37 @@ p {
     font-family: 'Roboto', sans-serif;
 }
 
+.mainpage {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    text-align: center;
+}
+.mainpage .header-btn {
+    height: 100px;
+    width: 450px;
+    border-radius: 90px;
+    font-size: 32px;
+    border: 0;
+}
+.mainpage h1 {
+    margin: 25px 0;
+}
+.mainpage h2 {
+    margin: 0 0 25px 0;
+}
+.backtomain {
+    margin-bottom: 25px;
+}
+.mainpage span {
+    max-width: 400px;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
+
 .image {
     box-shadow: 0 16px 32px 0 rgba(0, 40, 120, 0.35);
     opacity: 0.9;
@@ -96,23 +127,19 @@ h5 {
 }
 
 .header-btn {
-    text-decoration: none;
-    outline: none !important;
-    display: inline-block;
-    padding: 12px 40px !important;
+    padding: 12px 40px;
     margin: 10px 20px;
     border-radius: 30px;
     background-image: linear-gradient(67deg, #30cfd0 0%, #330867 100%);
     background-position: 100% 0;
     background-size: 200% 200%;
     font-family: 'Comfortaa', cursive;
-    font-size: 24px !important;
+    font-size: 24px;
     font-weight: 300;
     color: white;
     box-shadow: 0 16px 32px 0 rgba(0, 40, 120, 0.35);
-    transition: 0.5s !important;
+    transition: 0.5s;
     cursor: pointer;
-    backdrop-filter: blur(4px);
 }
 
 .header-btn:hover {
@@ -136,6 +163,8 @@ h5 {
     display: flex;
     align-items: center;
     justify-content: center;
+
+    font-family: 'Comfortaa', cursive;
 }
 
 .menu.active {
@@ -203,6 +232,8 @@ h5 {
 .container {
     overflow: auto;
     padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
 }
 /************ Название слайда ************/
 
@@ -683,6 +714,8 @@ td.rightcol {
 .clubs-list {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    place-items: center;
+    gap: 20px 0;
 }
 .clubs-list__slide {
     height: 100%;
@@ -708,7 +741,6 @@ td.rightcol {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.35);
     border-radius: 15px;
 
-    margin: 20px auto;
     padding: 15px;
 }
 
@@ -949,9 +981,6 @@ td.rightcol {
     .drujina-title {
         font-size: 20px;
     }
-    .clubs-card {
-        margin: 20px auto;
-    }
 
     .memories-card {
         max-width: 70%;
@@ -1021,9 +1050,6 @@ td.rightcol {
         flex-wrap: wrap;
     }
 
-    .clubs-card {
-        margin: 20px auto;
-    }
     .menu-close {
         top: 45px;
         right: 90px;
