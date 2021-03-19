@@ -1,22 +1,22 @@
-const goTopBtn = document.getElementById("top");
+const goTopBtn = document.getElementById('top')
 
-window.addEventListener("scroll", trackScroll);
-goTopBtn.addEventListener("click", backToTop);
+window.addEventListener('scroll', trackScroll)
+goTopBtn.addEventListener('click', backToTop)
 
-function backToTop() {
+function backToTop () {
   if (window.pageYOffset > 0) {
-    window.scrollTo({ top: 0, behavior: "smooth" });
+    window.scrollTo({ top: 0, behavior: 'smooth' })
   }
 }
 
-function trackScroll() {
-  let scrolled = window.pageYOffset;
-  let coords = document.documentElement.clientHeight;
+function trackScroll () {
+  const scrolled = window.pageYOffset
+  const coords = document.documentElement.clientHeight
 
   if (scrolled > coords) {
-    goTopBtn.classList.add("top-show");
+    goTopBtn.classList.add('top-show')
   }
   if (scrolled < coords) {
-    goTopBtn.classList.remove("top-show");
+    goTopBtn.classList.remove('top-show')
   }
 }

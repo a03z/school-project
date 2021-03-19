@@ -57,7 +57,7 @@ p {
 .mainpage span {
     max-width: 400px;
     position: absolute;
-    bottom: 20px;
+    bottom: 50px;
     right: 20px;
 }
 
@@ -982,6 +982,10 @@ blockquote {
     .memories-card {
         max-width: 70%;
         padding: 20px;
+    }
+    .mainpage span {
+        bottom: 20px;
+        right: 20px;
     }
 }
 
