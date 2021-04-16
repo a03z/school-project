@@ -1,8 +1,5 @@
 const goTopBtn = document.getElementById('top')
 
-window.addEventListener('scroll', trackScroll)
-goTopBtn.addEventListener('click', backToTop)
-
 const backToTop = () => {
     if (window.pageYOffset > 0) {
         window.scrollTo({ top: 0, behavior: 'smooth' })
@@ -20,3 +17,5 @@ const trackScroll = () => {
         goTopBtn.classList.remove('top-show')
     }
 }
+window.addEventListener('scroll', trackScroll)
+goTopBtn.addEventListener('click', backToTop)
