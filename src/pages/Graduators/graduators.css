@@ -1,0 +1,160 @@
+.graduator-item {
+	display: flex;
+	flex-direction: column;
+	flex-grow: 1;
+	margin: 0 15px 30px 15px;
+	border-radius: 20px;
+	border: 1px solid white;
+	background-color: rgba(255, 255, 255, 0.15);
+	backdrop-filter: blur(15px);
+	box-shadow: 0 16px 32px 0 rgba(0, 40, 120, 0.35);
+	flex-basis: 350px;
+	max-width: 800px;
+	max-height: 565px;
+	position: relative;
+	padding: 20px;
+	text-align: center;
+	align-items: center;
+}
+
+.graduator-item__text {
+	padding: 10px;
+	text-align: center;
+	max-height: 150px;
+	max-width: 275px;
+	font-family: 'Lato', sans-serif;
+	font-size: 12px;
+	line-height: 1.16;
+}
+
+.graduator-item__title {
+	padding: 10px;
+	text-align: center;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+table.text {
+	padding: 3px;
+	width: 100%;
+	border-spacing: 0;
+}
+
+table.text td {
+	width: 75%;
+	font-size: 16px;
+	vertical-align: top;
+}
+
+td.rightcol {
+	text-align: right;
+}
+
+.graduators-list {
+	margin-top: 20px;
+}
+
+.graduators {
+	align-items: center;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	width: 100%;
+}
+
+.ReactModal__Overlay {
+	opacity: 0;
+	transition: opacity 500ms ease-in-out;
+}
+
+.ReactModal__Overlay--after-open {
+	opacity: 1;
+}
+
+.ReactModal__Overlay--before-close {
+	opacity: 0;
+}
+
+.more-info {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	padding: 44px;
+	border-radius: 20px;
+	text-align: center;
+	max-width: 90%;
+	background: #9bc9ff;
+	box-shadow: 0 16px 32px 0 rgba(0, 40, 120, 0.35);
+}
+
+.achivki {
+	width: 70%;
+	font-size: 14px;
+}
+
+.achivkiBtn {
+	cursor: pointer;
+}
+
+.more-info__btn {
+	cursor: pointer;
+	text-decoration: none;
+	color: rgba(0, 0, 0, 0.8);
+}
+
+.more-info__btn:hover {
+	color: rgba(0, 0, 0);
+}
+
+.more-info__text {
+	font-size: 15px;
+}
+.more-btn {
+	text-decoration: none;
+	outline: none !important;
+	display: inline-block;
+	padding: 12px 40px !important;
+	margin: 10px 20px;
+	border-radius: 30px;
+	background-image: linear-gradient(67deg, #c1dddd 0%, #0f869b 100%);
+	background-position: 100% 0;
+	background-size: 200% 200%;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 15px !important;
+	font-weight: 300;
+	color: white;
+	box-shadow: 0 16px 32px 0 rgba(0, 40, 120, 0.35);
+	transition: 0.5s !important;
+	cursor: pointer;
+	max-width: 300px;
+}
+
+.more-btn:hover,
+.more-btn:focus {
+	text-decoration: none;
+	box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+	color: white;
+}
+
+.modalOverlay {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: rgba(0, 0, 0, 0.75);
+}
+
+.ReactModal__Overlay {
+	opacity: 0;
+	transition: opacity 200ms ease-in-out;
+}
+
+.ReactModal__Overlay--after-open {
+	opacity: 1;
+}
+
+.ReactModal__Overlay--before-close {
+	opacity: 0;
+}

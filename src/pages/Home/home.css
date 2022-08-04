@@ -1,0 +1,27 @@
+.mainpage {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	height: 100vh;
+	text-align: center;
+}
+.mainpage .header-btn {
+	height: 100px;
+	width: 450px;
+	border-radius: 90px;
+	font-size: 32px;
+	border: 0;
+}
+.mainpage h1 {
+	margin: 25px 0;
+}
+.mainpage h2 {
+	margin: 0 0 25px 0;
+}
+.mainpage span {
+	max-width: 400px;
+	position: absolute;
+	bottom: 80px;
+	right: 20px;
+}

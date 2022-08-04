@@ -1,0 +1,14 @@
+.notFoundPage {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.notFoundPage h1 {
+	font-size: 24px;
+}
+
+.notFoundPage a {
+	margin-top: 32px;
+	font-size: 32px;
+}

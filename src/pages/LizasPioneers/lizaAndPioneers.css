@@ -1,0 +1,123 @@
+.content-drujina {
+	display: flex;
+	flex-direction: column;
+	flex-grow: 1;
+	margin: 20px auto;
+	border-radius: 20px;
+	border: 1px solid white;
+	background-color: rgba(255, 255, 255, 0.15);
+	backdrop-filter: blur(15px);
+	box-shadow: 0 16px 32px 0 rgba(0, 40, 120, 0.35);
+	flex-basis: 350px;
+	position: relative;
+	padding: 20px;
+	width: 90%;
+	text-align: center;
+	max-width: 1510px;
+	max-height: 700px;
+}
+
+.text-drujina {
+	line-height: 1.7;
+	font-size: 10px;
+	font-family: 'Comfortaa', cursive;
+}
+.liza {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+
+	width: 85%;
+
+	padding: 44px;
+	border-radius: 20px;
+	background: white;
+	box-shadow: 0 16px 32px 0 rgba(0, 40, 120, 0.35);
+}
+
+.history-image__drujina {
+	box-shadow: 0 16px 32px 0 rgba(0, 40, 120, 0.35);
+	opacity: 0.9;
+	border-radius: 15px;
+	height: auto;
+	width: 90%;
+	margin: 10px auto;
+}
+
+.history-image__portrait {
+	width: 120px;
+	height: 165px;
+}
+.drujina-more__title {
+	text-align: center;
+	font-family: 'Comfortaa', cursive;
+	font-size: 13px;
+}
+.drujina-more__text {
+	text-align: center;
+	font-family: 'Comfortaa', cursive;
+	font-size: 9px;
+	margin-top: 10px;
+}
+
+@media (min-width: 550px) {
+	.history-image__drujina {
+		display: block;
+	}
+	.text-drujina {
+		font-size: 12px;
+	}
+	.drujina-more__title {
+		text-align: center;
+		font-size: 22px;
+	}
+	.drujina-more__text {
+		text-align: center;
+		font-size: 13px;
+	}
+	.drujina-title {
+		font-size: 17px;
+	}
+	.history-image__portrait {
+		height: 160px;
+		float: left;
+	}
+}
+@media (min-width: 768px) {
+	.history-image__portrait {
+		height: 220px;
+		width: 170px;
+	}
+
+	.text-drujina {
+		font-size: 16px;
+	}
+	.drujina-title {
+		font-size: 20px;
+	}
+}
+
+@media (min-width: 1000px) {
+	.history-image__portrait {
+		height: 290px;
+		width: 200px;
+	}
+	.drujina-more__text {
+		text-align: center;
+		font-size: 18px;
+	}
+	.drujina-more__title {
+		text-align: center;
+		font-size: 34px;
+	}
+	.drujina-title {
+		font-size: 23px;
+	}
+}
+@media (min-width: 1400px) {
+	.history-image__portrait {
+		height: 550px;
+		width: 400px;
+	}
+}

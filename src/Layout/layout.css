@@ -1,0 +1,15 @@
+/************ Контейнерная часть   ************/
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+	width: 98vw;
+}
+
+.container {
+	overflow-y: hidden;
+	padding-bottom: 20px;
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 70px;
+}
