@@ -83,6 +83,10 @@
 	cursor: pointer;
 }
 
+.backtomain {
+	margin-bottom: 10px;
+}
+
 @media (min-width: 1400px) {
 	.menu-content__link {
 		font-size: 34px;
