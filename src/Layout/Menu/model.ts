@@ -20,7 +20,7 @@ export const menuLinks: MenuLinkI[] = [
 	},
 	{
 		id: 2,
-		path: '/school-in-war-time',
+		path: '/school-in-war-times',
 		additionalClassName: '',
 		text: 'Школа в годы Великой Отечественной войны',
 	},

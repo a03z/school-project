@@ -92,6 +92,9 @@ td.rightcol {
 	width: 70%;
 	font-size: 14px;
 }
+.more-info.achivki {
+	text-align: left;
+}
 
 .achivkiBtn {
 	cursor: pointer;

@@ -9,6 +9,8 @@ import Teachers from './pages/Teachers'
 import NotFound from './pages/NotFound'
 import './App.css'
 import DeveleopementInProgress from './pages/DevelopementInProgress'
+import Formation from './pages/SchoolHistory'
+import SchoolInWarTimes from './pages/SchoolInWarTimes'
 
 function App() {
 	return (
@@ -28,13 +30,10 @@ function App() {
 					/>
 					<Route path='/teachers' element={<Teachers />} />
 					<Route
-						path='/school-in-war-time'
-						element={<DeveleopementInProgress />}
+						path='/school-in-war-times'
+						element={<SchoolInWarTimes />}
 					/>
-					<Route
-						path='/formation'
-						element={<DeveleopementInProgress />}
-					/>
+					<Route path='/formation' element={<Formation />} />
 					<Route path='/not-found' element={<NotFound />} />
 					<Route path='*' element={<Navigate to='/not-found' />} />
 				</Route>

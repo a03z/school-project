@@ -1,0 +1,140 @@
+/************ Образование школы ************/
+.history-image {
+	box-shadow: 0 16px 32px 0 rgba(0, 40, 120, 0.35);
+	opacity: 0.9;
+	border-radius: 15px;
+	width: 130px;
+	height: 90px;
+}
+.history-image__vov {
+	box-shadow: 0 16px 32px 0 rgba(0, 40, 120, 0.35);
+	opacity: 0.9;
+	border-radius: 15px;
+	width: 160px;
+	height: 110px;
+}
+.history-image__portrait {
+	box-shadow: 0 16px 32px 0 rgba(0, 40, 120, 0.35);
+	opacity: 0.9;
+	border-radius: 15px;
+	display: flex;
+	margin: 20px auto;
+	width: 100%;
+	height: 140px;
+}
+.vov-image__portrait {
+	box-shadow: 0 16px 32px 0 rgba(0, 40, 120, 0.35);
+	opacity: 0.9;
+	border-radius: 15px;
+	margin: 20px;
+	width: 29%;
+	height: auto;
+}
+
+.history-text {
+	padding: 10px;
+	text-align: center;
+	max-width: 275px;
+	font-family: 'Lato', sans-serif;
+	font-size: 9px;
+	line-height: 1.16;
+}
+
+.obrazovanie-name {
+	padding: 20px;
+	text-align: center;
+	font-size: 20px;
+	font-weight: bold;
+	position: relative;
+	width: 300px;
+	margin: auto;
+}
+
+.imageContainer {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.slideSection {
+	border-radius: 20px;
+	border: 1px solid white;
+	background-color: rgba(255, 255, 255, 0.15);
+	backdrop-filter: blur(15px);
+	padding: 10px;
+}
+
+.historyListStyles {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.content-vov {
+	display: flex;
+	flex-direction: column;
+	flex-grow: 1;
+	flex-wrap: wrap;
+	border-radius: 20px;
+	border: 1px solid white;
+	background-color: rgba(255, 255, 255, 0.15);
+	backdrop-filter: blur(15px);
+	box-shadow: 0 16px 32px 0 rgba(0, 40, 120, 0.35);
+	position: relative;
+	padding: 20px;
+	text-align: center;
+	max-width: 90%;
+	max-height: 700px;
+	margin: 28px auto;
+}
+
+.history-image__vov {
+	box-shadow: 0 16px 32px 0 rgba(0, 40, 120, 0.35);
+	opacity: 0.9;
+	border-radius: 15px;
+	width: 160px;
+	height: 110px;
+}
+
+@media (min-width: 550px) {
+	.history-image {
+		width: 200px;
+		height: 160px;
+	}
+	.history-image__vov {
+		width: 230px;
+		height: 150px;
+	}
+}
+@media (min-width: 767px) {
+	.history-text {
+		font-size: 14px;
+		max-width: 425px;
+	}
+	.history-image__vov {
+		width: 320px;
+		height: 200px;
+	}
+	.history-image {
+		width: 270px;
+		height: 200px;
+	}
+	.history-image__portrait {
+		height: 220px;
+		width: 170px;
+	}
+}
+@media (min-width: 1000px) {
+	.history-text {
+		font-size: 14px;
+		max-width: 425px;
+	}
+	.history-image {
+		width: 370px;
+		height: 260px;
+	}
+	.history-image__vov {
+		width: 450px;
+		height: 280px;
+	}
+}
